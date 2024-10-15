@@ -1,0 +1,52 @@
+body{
+    font-family: "Spicy Rice", serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #cdb4db;
+}
+h1, h4 {
+    text-align: center;
+}
+
+.btn-container {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.purple, .violet, .pink, .green {
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    border-radius: 30px;
+    margin: 10px;
+}
+.purple { background-color: #22235f; }
+.violet { background-color: #7a4D9F; }
+.pink { background-color: #EB68A0; }
+.green { background-color: #A8DACD; }
+.flash {
+    background-color: black;
+}
+.score{
+    height: 20px;
+    width: 60px;
+    background-color: #f4a6c1;
+    border:5px solid #5d3a9b ;
+    position: absolute;
+    right: 35%;
+    top: 11%;
+    text-align: center;
+}
+.userflash{
+    background-color: green;
+}
+.over{
+    background-color: red;
+}
+.spicy-rice-regular {
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
